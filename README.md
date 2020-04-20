@@ -1,5 +1,5 @@
 <pre><code>
-docker run -d --rm 
+$ docker run -d --rm 
               -e "DISPLAY=$DISPLAY" \
               --device /dev/dri \
               -v /tmp/.X11-unix:/tmp/.X11-unix \
